@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ******************************************************
+ネットラジオ局選択スピナーの外観定義 (spinner.setAdapter で読み込まれる）
+     ******************************************************  -->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:textColor="#E0E0E0"
+    android:background="@android:color/transparent"
+    android:height="25dp"
+/>
+

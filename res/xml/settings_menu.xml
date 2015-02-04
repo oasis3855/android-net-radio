@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- ******************************************************
+プリファレンス（機能設定）・メニューの定義
+     ******************************************************  -->
+    <CheckBoxPreference
+        android:key="pref_end_restart"
+        android:summary="Completion割込後に再受信"
+        android:title="再生終了後に再受信" />
+    <CheckBoxPreference
+        android:key="pref_disp_time"
+        android:title="経過時間を表示する" />
+    <CheckBoxPreference
+        android:key="pref_disp_uri"
+        android:title="URIを画面表示する" />
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android_netradio_02.MainActivity" >
+
+    <item
+        android:id="@+id/menu_exit"
+        android:orderInCategory="100"
+        android:title="終了"
+        app:showAsAction="never"/>
+    <item android:id="@+id/menu_read_pls_file" android:title="Playlistファイルの読込"></item>
+    <item android:id="@+id/menu_disp_pref" android:title="機能設定"></item>
+
+</menu>
